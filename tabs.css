@@ -1,0 +1,32 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 260px;
+}
+.paragraph{
+  color:#000000;
+	font-family:calibri;
+	font-size:21px;
+  font-weight: 500;
+}
+body {
+  background-image: url('hobbybg.jpg');
+}
